@@ -5,7 +5,7 @@ import Contador from './Components/Contador';
 import { useState } from 'react';
 
 function App() {
-
+// En la linea nueve se hace uso del useState
 const [numClics, setNumClics] = useState(0);
 
 const manejarClic= ()=>{
